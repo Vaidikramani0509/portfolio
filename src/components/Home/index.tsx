@@ -1,4 +1,6 @@
 import React from 'react';
+import { SiGmail, SiLinkedin, SiTwitter } from "react-icons/si";
+import { PiInstagramLogoFill } from "react-icons/pi";
 
 const Home = () => {
     return (
@@ -116,21 +118,21 @@ const Home = () => {
             </div>
             <div className='light:bg-[#FFFFFF] dark:bg-[#121010]'>
                 <div>
-                    <ul className='flex justify-center items-baseline'>
+                    <ul className='flex justify-center items-baseline ' >
                         <li className='mx-[12px] sm:mx-[25px] cursor-pointer hover:scale-125 duration-100'>
-                            <a href='mailto:ramanivaidik0509@gmail.com'>Gmail(Put here svg icon)</a>
+                            <a href='mailto:ramanivaidik0509@gmail.com'><SiGmail className='h-10 w-10' /></a>
                         </li>
                         <li className='mx-[12px] sm:mx-[25px] cursor-pointer hover:scale-125 duration-100'>
-                            <a href='mailto:ramanivaidik0509@gmail.com'>Gmail(Put here svg icon)</a>
+                            <a href='mailto:ramanivaidik0509@gmail.com'><SiLinkedin className='h-10 w-10' /></a>
+                        </li>
+                        <li className='mx-[12px] sm:mx-[25px] cursor-pointer'>
+                            <a href='mailto:ramanivaidik0509@gmail.com'>RV</a>
                         </li>
                         <li className='mx-[12px] sm:mx-[25px] cursor-pointer hover:scale-125 duration-100'>
-                            <a href='mailto:ramanivaidik0509@gmail.com'>Gmail(Put here svg icon)</a>
+                            <a href='mailto:ramanivaidik0509@gmail.com'><SiTwitter className='h-10 w-10' /></a>
                         </li>
                         <li className='mx-[12px] sm:mx-[25px] cursor-pointer hover:scale-125 duration-100'>
-                            <a href='mailto:ramanivaidik0509@gmail.com'>Gmail(Put here svg icon)</a>
-                        </li>
-                        <li className='mx-[12px] sm:mx-[25px] cursor-pointer hover:scale-125 duration-100'>
-                            <a href='mailto:ramanivaidik0509@gmail.com'>Gmail(Put here svg icon)</a>
+                            <a href='mailto:ramanivaidik0509@gmail.com'><PiInstagramLogoFill className='h-10 w-10' /></a>
                         </li>
                     </ul>
                 </div>
